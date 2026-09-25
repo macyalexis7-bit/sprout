@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Sprout app icon">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#fffaf2"/>
+      <stop offset="100%" stop-color="#f1e5cf"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#7bbf7f"/>
+      <stop offset="100%" stop-color="#3f8f5a"/>
+    </linearGradient>
+    <linearGradient id="petal" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f9d85f"/>
+      <stop offset="100%" stop-color="#f2b94f"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="126" fill="url(#bg)"/>
+  <circle cx="256" cy="128" r="68" fill="#f0d57a" opacity="0.9"/>
+
+  <g transform="translate(0 4)">
+    <path d="M256 122v216" stroke="#3b5f39" stroke-width="18" stroke-linecap="round"/>
+    <path d="M256 168c-72-32-116-76-118-134 36 8 76 33 106 72 24 31 34 50 34 62z" fill="url(#leaf)"/>
+    <path d="M256 168c72-32 116-76 118-134-36 8-76 33-106 72-24 31-34 50-34 62z" fill="url(#leaf)"/>
+    <path d="M256 250c-72 0-120 34-148 86 36 16 71 25 104 25 24 0 46-4 68-13 22-10 41-23 56-40-16-33-46-58-80-58z" fill="#7ab86a" opacity="0.95"/>
+    <path d="M256 290c52-1 88 12 118 44-10 26-32 46-63 59-32 14-62 19-94 16-24-2-41-8-60-20 20-37 51-67 99-99z" fill="#61a95f" opacity="0.9"/>
+  </g>
+
+  <g transform="translate(0 10)">
+    <path d="M180 402c28-18 59-28 76-29 18 3 48 12 76 29" stroke="#d4a95c" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <circle cx="182" cy="410" r="16" fill="#f5d76c"/>
+    <circle cx="330" cy="410" r="16" fill="#f5d76c"/>
+  </g>
+
+  <g>
+    <circle cx="256" cy="126" r="42" fill="#fff7d6" opacity="0.6"/>
+    <circle cx="256" cy="126" r="18" fill="url(#petal)"/>
+    <circle cx="256" cy="126" r="8" fill="#fffaf0"/>
+  </g>
+</svg>
